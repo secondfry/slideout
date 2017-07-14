@@ -1,9 +1,12 @@
 {
-  "name": "slideout",
-  "repository": "git@github.com:mango/slideout.git",
+  "name": "@secondfry/slideout",
+  "repository": "git@github.com:secondfry/slideout.git",
   "description": "A touch slideout navigation menu for your mobile web apps.",
   "author": "Guille Paz <guille87paz@gmail.com>",
-  "version": "1.0.1",
+  "contributors": [
+    "Rustam @Second_Fry Gubaydullin <secondfry@gmail.com> (http://secondfry.org)"
+  ],
+  "version": "1.0.2",
   "scripts": {
     "build": "node browserify.js",
     "test": "npm run build && istanbul cover _mocha",
@@ -42,7 +45,7 @@
   "filename": "slideout.min.js",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/Mango/slideout.git",
+    "target": "git://github.com/secondfry/slideout.git",
     "basePath": "dist",
     "files": [
       "*.js"

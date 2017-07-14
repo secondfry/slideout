@@ -1,10 +1,13 @@
 {
-  "name": "slideout",
-  "repo": "mango/slideout",
+  "name": "@secondfry/slideout",
+  "repo": "secondfry/slideout",
   "description": "A touch slideout navigation menu for your mobile web apps.",
   "author": "Guille Paz <guille87paz@gmail.com>",
-  "version": "1.0.1",
-  "twitter": "@mango",
+  "contributors": [
+    "Rustam @Second_Fry Gubaydullin <secondfry@gmail.com> (http://secondfry.org)"
+  ],
+  "version": "1.0.2",
+  "twitter": "@second_fry",
   "keywords": [
     "slideout",
     "offcanvas",

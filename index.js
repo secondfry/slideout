@@ -98,7 +98,7 @@ function Slideout(options) {
   }
 
   this._closeOnClick = options.closeOnClick || false;
-  this._grabWidth = parseInt(options.grabWidth, 10) || 0;
+  this._grabWidth = parseInt(options.grabWidth, 10) || 100;
 
   // Init touch events
   if (this._touch) {
@@ -231,7 +231,7 @@ Slideout.prototype._initTouchEvents = function() {
     self._moved = false;
     self._opening = false;
     self._startOffsetX = eve.touches[0].pageX;
-    self._preventOpen = (!self._touch || (!self.isOpen() && self.menu.clientWidth !== 0 || eve.touches[0].pageX > self._grabWidth));
+    self._preventOpen = (!self._touch || (!self.isOpen() && self.menu.clientWidth !== 0 || (!self._opened && self._grabWidth && eve.touches[0].pageX > self._grabWidth)));
   };
 
   this.panel.addEventListener(touch.start, this._resetTouchFn);

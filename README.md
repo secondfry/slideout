@@ -21,21 +21,7 @@
 
 ## Installation
 
-Slideout is available on cdnjs
-
-```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
-```
-
-Also you can use one of many package managers
-
-    $ npm install slideout
-
-    $ spm install slideout
-
-    $ bower install slideout.js
-
-    $ component install mango/slideout
+Private fork installation. It's recommended for you to build package locally and push it to local npm server (i.e. `sinopia`).
 
 ## Usage
 

@@ -1,8 +1,11 @@
 {
   "name": "slideout.js",
-  "repository": "https://github.com/Mango/slideout",
+  "repository": "https://github.com/secondfry/slideout",
   "description": "A touch slideout navigation menu for your mobile web apps.",
-  "author": "Guille Paz <guille87paz@gmail.com>",
+  "authors": [
+    "Guille Paz <guille87paz@gmail.com>",
+    "Rustam @Second_Fry Gubaydullin <secondfry@gmail.com> (http://secondfry.org)"
+  ],
   "dependencies": {
     "decouple": "0.0.2",
     "emitter-es6": "0.0.7"
@@ -18,7 +21,7 @@
     "test",
     "demo"
   ],
-  "homepage": "https://github.com/mango/slideout",
+  "homepage": "https://github.com/secondfry/slideout",
   "moduleType": [
     "adecouplemd",
     "globals",
